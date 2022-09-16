@@ -1,0 +1,212 @@
+
+/* home-section1 */
+/* nav */
+@media screen and (max-width:1292px) {
+   
+    .logo_{
+        width: 40%;
+        height: 100%;
+        
+    }
+    .logo_ img {
+        width: auto;
+    }
+    .logo_sub{
+        width: 48%;
+        height: 100%;
+      
+    }
+    .logo_sub b {
+        
+        font-size: 19px;
+
+    }
+}
+
+@media screen and (max-width:1198px) {
+    
+    .logo_{
+        width: 48%;
+        height: 100%;
+        
+    }
+    .logo_ img {
+        width: auto;
+        height: 90%;
+    }
+    .logo_sub{
+        width: 44%;
+        height: 100%;
+      
+    }
+    .logo_sub b {
+        
+        font-size: 16px;
+
+    }
+}
+
+@media screen and (max-width:988px) {
+    .offcanvas-title .navbar-brand {
+        height: 100px;
+        width: 99%;
+    }
+    
+    .offcanvas-title .logo_{
+        width: 48%;
+        height: 100%;
+        
+    }
+    .offcanvas-title .logo_ img {
+        width: auto;
+        height: 90%;
+    }
+    
+    .offcanvas-title .logo_sub b {
+        
+        font-size: 13px;
+    }
+
+    .navbar-brand {
+        height: 100px;
+        width: 40%;
+    }
+    
+    .logo_sub b {
+        
+        font-size: 13px;
+
+    }
+}
+
+@media screen and (max-width:767px) {
+    .navbar-brand {
+        height: 100px;
+        width: 47%;
+    }
+    
+    .logo_sub b {
+        
+        font-size: 13px;
+
+    }
+}
+
+@media screen and (max-width:515px) {
+    .navbar-brand {
+        height: 100px;
+        width: 50%;
+        margin-left: 10px;
+    }
+    
+    .logo_sub b {
+        
+        font-size: 13px;
+
+    }
+    .logo_{
+        width: 48%;
+        height: 100%;
+        
+    }
+    .logo_ img {
+        width: auto;
+        height: 80%;
+    }
+    .logo_sub{
+        width: 44%;
+        height: 100%;
+      
+    }
+}
+@media screen and (max-width:440px) {
+    .navbar-brand {
+        height: 100px;
+        width: 55%;
+        margin-left: 10px;
+    }
+    
+    .logo_sub b {
+       
+        font-size: 10px;
+
+    }
+    .logo_{
+        width: 48%;
+        height: 100%;
+        
+    }
+    .logo_ img {
+        width: auto;
+        height: 80%;
+    }
+    .logo_sub{
+       
+        width: 44%;
+        height: 90%;
+      
+    }
+}
+@media screen and (max-width:401px) {
+    .navbar-brand {
+        height: 100px;
+        width: 59%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:350px) {
+    .navbar-brand {
+        height: 100px;
+        width: 65%;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width:325px) {
+    .navbar-brand {
+        height: 100px;
+        width: 70%;
+        margin-left: 10px;
+    }
+}
+
+
+
+ /* header */
+@media screen and (max-width:550px) {
+    header .con_liner .container .text {
+        
+        font-size: 18px;
+    }
+    header .con_liner{
+        height: 7rem;
+        margin-bottom: 2rem;
+    }
+    header .con_liner .container{
+       
+        margin-left: 0%;
+        border-radius: 18px;
+        margin-top: 1rem;
+    }
+}
+
+/* hyome-section2 */
+
+/* reverse */
+@media  (min-width: 700px){
+    .block-2{
+        display:flex;
+        flex-direction: row-reverse;
+    }
+    .block-col_1{
+        margin-left:7rem ;
+    }
+    .block-col_2{
+        margin-left:2rem ;
+    }
+    .block-col_3{
+        margin-right:6rem ;
+    }
+    .block-col_4{
+        margin-right:2rem ;
+    }
+}
