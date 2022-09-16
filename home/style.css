@@ -8,7 +8,7 @@ body {
     color: rgba(0, 0, 0, 0.192);
 }
 
-p{
+p, pre {
     color: white;
 }
 
@@ -20,7 +20,7 @@ header{
     overflow: hidden;
 }
 
-header img {
+header #img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -33,69 +33,12 @@ header img {
     transform: translateX(-50%) translateY(-50%);
 
 }
-  /* navbar */
-  #services{ 
-    overflow: hidden;
-}
-hr :hover{
-    color: white;
-}
-*{
-    padding: 0;
-    margin: 0;
-}
-#nav-bar{
-    width: 100%;
-    height: 130px;
-    border-bottom: 2px black solid;
-}
-.join-us-but{
-    width: 12.7%;
-    height: 30px;
-    margin: 5px;
-}
-.logo{
-    width: 12.6%;
-    height: 80px;
-    margin: 0px 0px 5px 5px;
-    border: 1px black solid;
-}
-#nav{
-    float: right;
-    position: relative;
-    right: 50px;
-    bottom: 50px;
-}
-.but{
-    margin: 10px;
-    height: 30px;
-    width: 80px;
-}
-#services{
-    margin-left: 10px;
-    margin-right: 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: 30px;
-    width: 80px;
-    background: transparent;
-   -o-appearance: none;
-   -ms-appearance: none;
-   -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;
-   outline: 0;
-   border-width: 0;
-   position: relative;
-   left: 10px;
-}
-
 
 header .of{
     position: relative;
     z-index: 2;
     height: auto;
-    margin-top: 13rem;
+    margin-top: 16rem;
 }
 header .con_liner{
     position: relative;
@@ -104,7 +47,7 @@ header .con_liner{
     height: 7rem;
     background-image: -webkit-linear-gradient(left, rgba(255,0,0,0), rgb(0, 110, 55));
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 110, 55));
-    margin-top: 9rem;
+    margin-top: 7rem;
 }
 .con_liner :hover{
     
@@ -140,8 +83,76 @@ header .overlay {
     z-index: 1;
 }
 
+.navbar-brand {
+    height: 100px;
+    width: 30%;
+}
+.logo_{
+    width: 49%;
+    height: 100%;
+    float: left;
+    /* background-color: red; */
+}
+.logo_sub{
+    width: 49%;
+    height: 100%;
+    float:right;
+    /* background-color: black; */
+}
+.logo_sub b {
+    font-family: 'Cousine', monospace;
+    letter-spacing: 2px;
+   
+}
+
+
 
 /* home-section 2 */
+/* services */
+.blockk{
+    color: #382735;
+    padding: 5%;
+    align-content: center;
+}
+.block-11{
+   /* color: #382735; */
+}
+.block-2{
+    /* background-color: #324376; */
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -0px;
+    margin-left: -0px;
+}
+.block-col_1 img , .block-col_3 img {
+    width: 100%;
+    height: auto;
+}
+.block-col_2  a  , .block-col_2  p  , .block-col_2 a p   {
+   text-decoration: none;
+   color: #382735;
+}
+.block-col_4  a  ,.block-col_4 p , .block-col_4 a p   {
+    text-decoration: none;
+    color: #382735;
+ }
+#services{ 
+    overflow: hidden;
+}
+hr :hover{
+    color: white;
+}
+
+
+
+
+/* home-section 3 */
+
 .carousel-placeholder
 {
   width: 100%;
@@ -191,41 +202,3 @@ header .overlay {
   overflow: hidden;
   margin: 0 auto;
 }
-
-
-
-/* home-section 3 */
-/* services */
-.blockk{
-    color: #382735;
-    padding: 5%;
-    align-content: center;
-}
-.block-11{
-   /* color: #382735; */
-}
-.block-2{
-    /* background-color: #324376; */
-}
-
-.row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -0px;
-    margin-left: -0px;
-}
-.block-col_1 img , .block-col_3 img {
-    width: 100%;
-    height: auto;
-}
-.block-col_2  a  , .block-col_2  p  , .block-col_2 a p   {
-   text-decoration: none;
-   color: #382735;
-}
-.block-col_4  a  ,.block-col_4 p , .block-col_4 a p   {
-    text-decoration: none;
-    color: #382735;
- }
-
