@@ -20,3 +20,15 @@
     height: auto;
     padding: 0 10px;
 }
+
+.all-text{
+    width: 600px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.main{
+    width: 1290px;
+    max-width: 95%;
+    margin: 0 auto;
+}
