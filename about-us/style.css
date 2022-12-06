@@ -36,3 +36,27 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.all-text h4{
+    font-family: 'Roboto', san-serif;
+    font-size: 18px;
+    color: #777777;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.all-text h1{
+    font-weight: 65px;
+    color: #111111;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.all-text p{
+    font-family: 'Roboto', san-serif;
+    font-size: 16px;
+    color: #777777;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
