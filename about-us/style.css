@@ -155,7 +155,7 @@ a:hover, a:active {
 
 /* Section Three */
 .row.heading h2 {
-    color: #fff;
+    color: #000;
     font-size: 52.52px;
     line-height: 95px;
     font-weight: 400;
@@ -207,11 +207,6 @@ ul{
 	display:inline-block;
 }
 
-
-.our-Team{
-  background: url("http://www.webcoderskull.com/img/right-sider-banner.png") no-repeat center top / cover;
-  
-}
 .our-Team .cnt-block{ 
    float:left; 
    width:100%; 
