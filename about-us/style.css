@@ -135,4 +135,12 @@ a:hover, a:active {
     /* text-align: center; */
 }
 
-.bg-image .inner-text
+.bg-image .inner-text h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+.bg-image .inner-text p{
+    color: #fff;
+    font-size: 45px;
+}
