@@ -162,13 +162,13 @@ a:hover, a:active {
     height: auto;
     padding: 0 10px;
 }
-.feature .feature-box .iconset {
+.feature .feature-box .icon {
     background: #fff none repeat scroll 0 0;
     float: left;
     position: relative;
     width: 18%;
 }
-.feature .feature-box .iconset::after {
+.feature .feature-box .icon::after {
     background: #fdb801 none repeat scroll 0 0;
     content: "";
     height: 150%;
