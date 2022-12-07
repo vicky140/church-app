@@ -50,12 +50,11 @@ a:hover, a:active {
 }
 
 .about-us-banner img{
-    width: 5800px;
+    width: 580px;
     max-width: 100%;
     height: auto;
     padding: 0 10px;
 }
-
 .feature .feature-box .icon {
     background: #fff none repeat scroll 0 0;
     float: left;
@@ -114,10 +113,4 @@ a:hover, a:active {
 .icon img {
     width: 40px;
     height: 40px;
-}
-
-/* Section two */
-.section img{
-    width: 100%;
-    height: 100%;
 }
