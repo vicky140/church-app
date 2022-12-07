@@ -120,6 +120,19 @@ a:hover, a:active {
     height: 100vh;
     position: relative;
     background-size: cover;
-    background-image: url(/images/v.jpg);
+    background-image: url(/images/s.jpg);
     background-repeat: no-repeat;
 }
+.bg-image .inner-text{
+    position: absolute;
+    width: 100%;
+    background-color: #0009;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-bottom: 4px solid #fff;
+    border-top: 4px solid #fff;
+    /* text-align: center; */
+}
+
+.bg-image .inner-text
