@@ -235,16 +235,16 @@ ul{
    padding:6px 0;
    text-transform:uppercase;
 }
-.our-TEam .cnt-block h3 a{
+.our-Team .cnt-block h3 a{
   text-decoration:none;
-	color:#2a2a2a;
+	color:#fdb801;
 }
 .our-Team .cnt-block h3 a:hover{
 	color:#337ab7;
 }
 .our-Team .cnt-block p{ 
    color:#2a2a2a; 
-   font-size:13px; 
+   font-size:15px; 
    line-height:20px; 
    font-weight:400;
 }
