@@ -381,7 +381,7 @@ h3{
 }
 .item blockquote p:before {
     content: "\f10d";
-    font-family: 'Fontawesome';
+    font-family: 'Poppins', sans-serif;
     float: left;
     margin-right: 10px;
 }
