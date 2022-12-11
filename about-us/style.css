@@ -248,9 +248,9 @@ ul{
    line-height:20px; 
    font-weight:400;
 }
-.our-Team .cnt-block .follow-us{
+/* .our-Team .cnt-block .follow-us{
 	margin:20px 0 0;
-}
+} */
 .our-Team .cnt-block .follow-us li{ 
     display:inline-block; 
 	width:auto; 
