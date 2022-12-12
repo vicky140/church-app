@@ -4,103 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us Page</title>
+    <title>Contact Us</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="/contact-us/style.css">
     <link rel="shortcut icon" href="/images/favicon 1.png" type="image/x-icon">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 </head>
 <body>
-
+    
 <!------ Include the above in your HEAD tag ---------->
 
-<div class="jumbotron jumbotron-sm">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-lg-12">
-                <h1 class="h1">
-                    Contact us 
-                <small>-</small></h1>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="well well-sm">
-                <form>
-                <div class="row">
-                    <div class="col-md-6">
-                        <!-- Name -->
-                        <div class="form-group">
-                            <label for="name">
-                                Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
-                        </div>
-                        <div class="form-group">
-                            <label for="number">
-                                Phone.No</label>
-                            <input type="text" class="form-control" id="number" placeholder="Enter Phone Number" required="required" />
-                        </div>
-                        <!-- Email -->
-                        <div class="form-group">
-                            <label for="email">
-                                Email Address</label>
-                            <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                </span>
-                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">
-                                Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="service">Prayer for healing</option>
-                                <option value="suggestions">Prayer for Blessing</option>
-                                <option value="product">Prayer for Lifting Up</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="name">
-                                Do you have a question or prayer request?</label>
-                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                placeholder="prayer request"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                            Send Message</button>
-                    </div>
-                </div>
-                </form>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <form>
-            <legend><span class="glyphicon glyphicon-globe"></span> Our Location</legend>
-            <address>
-                <strong>Twitter, Inc.</strong><br>
-                795 Oyo State, Suite 600<br>
-                Fine Store, CA 94107<br>
-                <abbr title="Phone">
-                    P:</abbr>
-                (+234) 903 598 6632
-            </address>
-            <address>
-                <strong>Full Name</strong><br>
-                <a href="mailto:#">okevictor14@gmail.com</a>
-            </address>
-            </form>
-        </div>
-    </div>
-</div>
-
-<!-- Script -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
+<section class="get-in-touch">
+    <h1 class="title">Get in touch</h1>
+    <form class="contact-form row">
+       <div class="form-field col-lg-6">
+          <input id="name" class="input-text js-input" type="text" required>
+          <label class="label" for="name">Name</label>
+       </div>
+       <div class="form-field col-lg-6 ">
+          <input id="email" class="input-text js-input" type="email" required>
+          <label class="label" for="email">E-mail</label>
+       </div>
+       <div class="form-field col-lg-6 ">
+          <input id="company" class="input-text js-input" type="text" required>
+          <label class="label" for="company">Company Name</label>
+       </div>
+        <div class="form-field col-lg-6 ">
+          <input id="phone" class="input-text js-input" type="text" required>
+          <label class="label" for="phone">Contact Number</label>
+       </div>
+       <div class="form-field col-lg-12">
+          <input id="message" class="input-text js-input" type="text" required>
+          <label class="label" for="message">Message</label>
+       </div>
+       <div class="form-field col-lg-12">
+          <input class="submit-btn" type="submit" value="Submit">
+       </div>
+    </form>
+ </section>
+ 
+    <!--Script  -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
 </body>
 </html>
